@@ -1,0 +1,8 @@
+{
+  "name": "cli-chat",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "sockjs": "^0.3.24",
+    "twitter-api-v2": "^1.13.0"
+  }
+}

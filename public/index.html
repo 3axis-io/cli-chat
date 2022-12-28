@@ -1,0 +1,12 @@
+<ax-scene id="cli-chat" hdr-environment="url: assets/day.hdr">
+    <ax-camera movement-controls="floor:15;"><ax-reticle /></ax-camera>
+    <ax-plane interactor="fastTravel: 15" material="src: assets/marble.jpg; repeat: 18 18"
+              height="500" width="500" rotation="-90 0 0" shadow="cast: false"></ax-plane>
+    <ax-light type="ambient" color="#555"></ax-light>
+
+</ax-scene>
+<script src="https://3axis.io/assets/scripts/3axis-core.min.js"></script>
+
+<!--- sockjs setup --->
+<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+<script src="assets/scripts/sock-interface.js"></script>
